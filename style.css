@@ -1,6 +1,6 @@
 .center {
     margin: auto;
-    text-align: center;
+    width: 50%;
 }
 
 ul {
@@ -8,7 +8,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: #333;
 }
 
 li {
@@ -20,6 +20,7 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover {
@@ -27,7 +28,12 @@ li a:hover {
 }
 
 body {
-    display: block;
-    margin: auto;
-    width: 50%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, wheat, pink);
+}
+
+img {
+    border: 10px;
+    border-style: outset;
+    border-color: pink;
 }
